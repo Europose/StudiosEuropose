@@ -1,0 +1,160 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+
+nav ul a,
+nav .brand-logo {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+nav .brand-logo {
+    padding: 0 20px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h5 {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+div {
+font-family: 'Josefin Sans', sans-serif;
+color: black;
+}
+
+.sidenav-trigger {
+  color: red;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: black;
+}
+ 
+.section-intro{
+  height: 100%;
+  width: 100%;
+ }
+
+.header {
+  margin-top: 5%;
+  }
+.header-subtitle {
+  margin-top: 0.9%;
+  font-size: 1.7em;
+  color:red;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .brand-logo {
+  padding: 0 5px;
+  }
+
+}
+
+.col-servizio {
+  margin-top: 60px;
+}
+
+#servizio h5 {
+  font-size: 1.5em;
+  line-height: 1.6em;
+  }
+
+.header-registrazione {
+  margin-top: 3%;
+  }
+.header-registrazione-subtitle {
+  margin-top: 1%;
+  font-size: 1.5em;
+  color: black;
+  }
+  .header-end {
+  font-size: 2.5em;
+  color: red;
+  }
+  .section-registrazione{
+  height: 100%;
+  width: 100%;
+ }
+
+.registrazione-icon {
+  font-size: 6em;
+  margin-top: 40px;
+  }
+
+.contattaci-icon {
+  font-size: 5em;
+  margin-top: 40px;
+  }
+
+.header-contattaci {
+  margin-top: 3%;
+  }
+
+.header-contattaci-subtitle {
+  margin-top: 0,8%;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  color: black;
+  }
+.header-indirizzo {
+  margin-top: 0,8%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  color: #ffff;
+  }
+
+.social-icon{
+  font-size: 1em;
+  color: #ffff;
+  padding: 0 20px;
+}
+
+.social-icon:hover {
+  color: red;
+}
+.btn-registrazione {
+  width: 100%
+}
+
+.btn-contattaci {
+  width: 100%
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #34377E;
+}
